@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Reloj para hombres Invicta Pro",
+      "precio": "300.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_829955-MLU75209269158_032024-O.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Tenis Duramo ADIDAS",
+      "precio": "250.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_894619-MCO75785540642_042024-O.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Estuche de madera para organizar 24 relojes",
+      "precio": "150.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_707091-MCO48909838842_012022-O.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Conjunto deportivo, Jogger + Buzo",
+      "precio": "80.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_602341-MCO54909400627_042023-O.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Mochila tactica militar impermeable",
+      "precio": "130.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_617767-MLA79637368281_092024-O.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Mochila con Ruedas color negro",
+      "precio": "550.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_607252-MLU75118881595_032024-O.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "Morral porta PC",
+      "precio": "110.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_671110-MCO77435327589_072024-O.webp"
+    },
+    {
+      "id": 8,
+      "nombre": "Gafas de sol polarizadas",
+      "precio": "95.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_650919-MCO72871381697_112023-O.webp"
+    },
+    {
+      "nombre": "Pantuflas termicas antideslizantes",
+      "precio": "40.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_991649-MCO77822155949_072024-O.webp",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "nombre": "Bolso de mano con grabado de palmeras negro",
+      "precio": "240.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_895812-MCO76036242105_042024-O.webp"
+    },
+    {
+      "id": 16,
+      "nombre": "xxxc",
+      "precio": "110.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_653650-MLU72893249932_112023-O.webp"
+    }
+  ]
+}

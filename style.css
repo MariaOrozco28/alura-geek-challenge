@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color-header-footer: #5300C8;
+    --color-boton:#03318C;
+
+    --fuente-principal: "Press Start 2P", serif;
+    --fuente-secundaria: "Raleway", sans-serif;
+}
+
+
+header{
+    background-color: var(--color-header-footer);
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.mis_productos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.productos_container{
+    box-shadow: -12px 10px 5.8px rgba(0,0,0,0.25);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 678px;
+    height: 971px;
+    padding: 40px;
+    list-style: none;
+    overflow: auto;
+    border: none;
+}
+
+/* Estilo del contenedor del card */
+.card {
+    width: 196px; 
+    height: 265px; 
+    background-color: #5D04D9; 
+    border: 3px solid black; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 5px;
+    padding: 5px;
+
+}
+
+/* Estilo de la imagen del producto */
+.card img {
+    width: 176px;
+    height: 174px;
+    object-fit: cover;
+    border-radius: 5px; /* Bordes redondeados en la imagen */
+    border: 2px solid #000;
+}
+.card-container--info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Estilo de la descripción */
+.card-container--info p {
+    color: white;
+    text-align: center;
+    font-family: var(--fuente-secundaria);
+    font-size: 0.9rem;
+}
+.card-container--value{
+    display: flex;
+    justify-content: space-between;
+}
+.card-container--value img{
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.card-container--value img:hover{
+    cursor: pointer;
+}
+
+.agregar_producto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    top:20%
+}
+
+h2{
+    font-family: var(--fuente-principal);
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.container__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.container__formulario input{
+    width: 358px;
+    height: 33px;
+    border: 3px solid var(--color-boton);
+    border-radius: 30px;    
+    font-family: var(--fuente-secundaria);
+    color:var(--color-boton);
+    padding: 10px 14px;
+    font-size: 1rem;
+    
+}
+.container__formulario input:focus{
+    outline: none;
+}
+.container__formulario input::placeholder{
+    color: var(--color-boton);
+    font-family: var(--fuente-secundaria);
+    font-size: 1rem;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+#botones{
+    background-color: var(--color-boton);
+    width: 188px;
+    height: 55px;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: var(--fuente-secundaria);
+    font-size: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+footer{
+    background-color: var(--color-header-footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer p{
+    color: white;
+    font-family: var(--fuente-secundaria);
+    font-size: 1rem;
+}

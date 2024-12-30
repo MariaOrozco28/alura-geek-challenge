@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="themeStylesheet" rel="stylesheet" href="./style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.svg" class="logo" alt="Logo AluraGeek">
+    </header>
+    <main>
+        <section class="mis_productos">
+            <h2>Mis productos</h2>
+            <ul class="productos_container" alt="lista_productos" data-lista></ul>
+        </section>
+
+        <section class="agregar_producto">
+            <h2>Agregar producto</h2>
+            <form class="container__formulario" data-formulario>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre..." required data-nombre>
+                <input type="text" id="precio" name="precio" placeholder="precio..." required data-precio>
+                <input type="text" id="imagen" name="imagen" placeholder="imagen..." required data-imagen>
+                <div class="botones">
+                    <input class="formulario_enviar" type="submit" id="botones"></input>
+                    <button class="formulario_limpiar" id="botones">Limpiar</button>
+                </div>
+            </form>
+            
+            
+
+        </section>
+    </main>
+    <footer>
+        <img src="./img/Logo.svg" class="logo" alt="Logo AluraGeek">
+        <p>Desarrollado por María Orozco</p>
+        <p>ALURA LATAM 2024</p>
+    </footer>
+    <script src="./js/mostrarProducto.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/eliminarProducto.js" type="module"></script>
+</body>
+</html>
